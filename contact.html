@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> CodingSolution </title>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8     zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script type="text/javascript" src="contact.js"></script>
+        <style>
+            .logo
+            {
+                height: 120px;
+                margin-left: 40px;
+            }
+
+            body
+            {
+                margin: 0px;
+            }
+
+            header
+            {
+                background-image: url(download1.webp);
+                padding-bottom: 0px;
+                border-bottom: 3px solid #ffbc00;
+            }
+
+            .nav-item:hover
+            {
+                background-color: green;
+                border-radius: 50px;
+                cursor: pointer;
+            }
+
+            #nav_bar 
+            {
+                float: right;
+                margin-right: 90px; 
+                font-weight: bold;
+                color: black;
+            }
+
+            #nav_bar li 
+            {
+                display: inline-block;
+                padding: 8px;
+            }
+
+            .link
+            {
+                text-decoration: none;
+                color: white;
+            }
+
+            .link:hover
+            {
+                text-decoration: none; 
+            }
+            footer
+            {
+                background: black;
+                color: white;
+                border-top: 3px solid yellow;
+            }
+
+            .foot-extra
+            {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .foot1
+            {
+                text-align: center;
+            }
+
+            .foot2
+            {
+                text-align: center;
+            }
+
+            .foot3
+            {
+                text-align: center;
+            }
+
+            .foot4
+            {
+                text-align: center;
+            }
+            .bottom-line
+            {
+                height: 2px;
+                width: 5rem;
+                background: #ffbc00;
+                display: block;
+                margin: 0 auto 1rem auto;
+            }
+
+            .top-text, .t-text
+            {
+                text-align: center;
+            }
+
+            .form
+            {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            button
+            {
+                text-align:center;
+                margin-top: 10px;
+                height: 40px;
+                width: 300px;
+                border-color: inherit;
+            }
+
+            .text-area
+            {
+                width: 666px;
+                height: 80px;
+            }
+
+            .fname, .email, .phone, .subject, .text-area
+            {
+                width: 400px;
+                height: 40px;
+                margin-top: 10px;
+                margin-left: 50px;
+                border-color: inherit;
+            }
+            .add-location
+            {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                background-color: #333;
+                margin-top: 10px;
+            }
+            .address
+            {
+                color: white;
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            .btn
+            {
+                text-align: center;
+            }
+            .btn:hover
+            {
+                cursor: pointer;
+            }
+            .submit:hover
+            {
+                cursor: pointer;
+            }
+            .start
+            {
+                text-align: center;
+                margin: 0px;
+                padding: 0px;
+            }
+            .text
+            {
+                background: #ffbc00;
+                height: 140px;
+                font-size: 50px;
+                color: white;
+            }
+
+        </style>
+    </head>
+    
+<body>
+    <header class="head-class">
+        <nav class="nav-class">
+            <div class="container">
+                <img src="logo.jpg" class="logo">
+                    <ul id="nav_bar">  
+                        <li class="nav-item"><a class="link" href="index.html"> HOME </a></li>
+                        <li class="nav-item" style="transform: translate(20%,0)"><a class="link" href="about.html"> ABOUT </a></li>
+                        <li class="nav-item" style="transform: translate(30%,0)"><a class="link" href="My%20work.html"> MY WORK </a></li>
+                        <li class="nav-item" style="transform: translate(70%,0)"><a class="link" href="blog.html"> BLOG </a></li>
+                        <li class="nav-item" style="transform: translate(60%,0)"><a class="link" href="project.html"> PROJECTS </a></li>
+                        <li class="nav-item" style="transform: translate(60%,0)"><a class="link" href="contact.html"> CONTACTS </a></li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section">
+        <div class="div1"> 
+        <h1 class="top-text"> CONTACT ME </h1>
+        <div class="bottom-line"></div>
+        <h2 class="t-text"> Here is how you can reach me </h2>
+
+            <form name="Registration" onsubmit="return registration()">
+            <div class="form">
+                <input type="text" name="fname" id="fname" placeholder="Full Name" class="fname">
+                
+                <input type="email" name="email" id="email" placeholder="Email" class="email">
+
+                <input type="text" name="subject" id="subject" placeholder="Subject" class="subject">                
+                <input type="Phone" name="PhoneNo" id="PN" placeholder="Phone No." class="phone">
+                
+                <input type="text-area" name="text-area" id="area" placeholder="Enter Message" class="text-area">
+            </div>
+            <div class="btn">
+                <button type="submit" class="submit">Submit</button>
+            </div>
+            </form>
+        </div>
+    <div class="add-location">
+        <div class="address">
+            <i class="fa-solid fa-address-card"></i>
+            <h2> ADDRESS </h2>
+            <p>204 copper leaf,<br>opp. Parshwanath Jain mandir,<br>AEC Char Rasta,<br>Bhuyangdev, Ahmedabad, Gujarat 380061</p>
+        </div>
+        <div class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.0685627419844!2d72.5359128146123!3d23.05794782079197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e851a5d3e4e0f%3A0x249acb663e46af9b!2sSoft%20Coding%20Solutions!5e0!3m2!1sen!2sin!4v1655372634611!5m2!1sen!2sin" width="400" height="200" style="border:0;margin-top: 10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+        <div class="text">
+            <h1 class="start"> Lets start your next Project </h1>
+        </div>
+    </section>
+    
+    <footer class="foot-class">
+        <div class="foot-extra">
+        <div class="foot1">
+            <h3 class="comp"> Company </h3>
+            <p class="add"> Near, 204 Copper Leaf, Opp. Parshwanath Jain Mandir, AEC Char Rasta, Bhuyangdev, Ahmedabad, Gujarat 380061 </p>
+        </div>
+        
+        <div class="foot2">
+            <h3 class="navigate"> Navigate </h3>
+            <h4 class="steps">
+                <a href="index.html" class="link">Home</a><br>
+                <a href="about.html" class="link">About</a><br>
+                <a href="My work.html" class="link">Activities</a><br>
+                <a href="blog.html" class="link">Blog</a><br>
+                <a href="project.html" class="link">Projects</a><br>
+                <a href="contact.html" class="link">Contacts</a>
+            </h4>
+        </div>
+        
+        <div class="foot3">
+            <h3 class="follow"> Follow Me: </h3>
+            <div class="icons">
+                <a href="#" class="link"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="link"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="link"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="link"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <br>
+            <i class="fa-solid fa-envelope"></i>
+            EMAIL
+            <br>
+            <a href="#" class="link">softcodingsolutions@gmail.com</a>
+            <br>
+            <br>
+            <i class="fa-solid fa-phone"></i>
+            PHONE
+            <br>
+            tel:<a href="#" class="link">+91 5555566655</a>
+        </div>
+        </div>
+        <div class="foot4">
+            Copyright © 2022 Reserved
+        </div>
+        
+    </footer>
+    
+</body>    
+</html>

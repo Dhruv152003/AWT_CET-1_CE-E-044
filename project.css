@@ -1,0 +1,199 @@
+.logo
+{
+    height: 120px;
+    margin-left: 40px;
+}
+
+header
+{
+    background-image: url(download1.webp);
+    border-bottom: 3px solid #ffbc00;
+}
+
+body
+{
+    margin: 0px;
+}
+.nav-item:hover
+{
+    background-color: green;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#nav_bar 
+{
+    float: right;
+    margin-right: 90px; 
+    font-weight: bold;
+    color: black;
+}
+
+#nav_bar li 
+{
+    display: inline-block;
+    padding: 8px;
+}
+
+.link
+{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover
+{
+    text-decoration: none; 
+}
+
+footer
+{
+    background: black;
+    color: white;
+}
+
+.foot-extra
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.foot1
+{
+    text-align: center;
+}
+
+.foot2
+{
+    text-align: center;
+}
+
+.foot3
+{
+    text-align: center;
+}
+
+.foot4
+{
+    text-align: center;
+}
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+div
+{
+    display: block;
+}
+
+.container1 h5 {
+    background: url(keyboard.jpg) no-repeat center center/cover;
+    padding: 200px;
+    text-align: center;
+    font-size: 5rem;
+    opacity: 0.8;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.projects {
+    line-height: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 6rem;
+    color: #fff;
+    margin-left: 1rem;
+    background: black;
+}
+
+h2, h3, h4 {
+    text-transform: uppercase;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;*/
+    font-weight: bold;
+}
+
+.project_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    background: #555;
+}
+
+.h3 {
+    color: #ffbc00;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    text-transform: uppercase;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.pre {
+    overflow-y: scroll;
+    height: 30vh;
+}
+
+pre {
+    margin-left: -110px !important;
+}
+
+.footer-col ul li a, pre {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}

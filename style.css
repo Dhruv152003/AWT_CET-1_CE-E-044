@@ -1,0 +1,190 @@
+.logo
+{
+    height: 120px;
+    margin-left: 40px;
+}
+
+body
+{
+    margin: 0px;
+}
+
+header
+{
+    background-image: url(download1.webp);
+    padding-bottom: 215px;
+}
+
+.nav-item:hover
+{
+    background-color: green;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#nav_bar 
+{
+    float: right;
+    margin-right: 90px; 
+    font-weight: bold;
+    color: black;
+}
+
+#nav_bar li 
+{
+    display: inline-block;
+    padding: 8px;
+}
+
+.link
+{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover
+{
+    text-decoration: none; 
+}
+
+.center-text1
+{
+    margin: 0;
+    text-align: center;
+    font-size: 50px;        
+    font-size: 60px;
+    color: white;
+}
+
+.center-text2
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    font-family:monospace;
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+.center-text2:hover 
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.bottom-line
+{
+    height: 2px;
+    width: 5rem;
+    background: #ffbc00;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+.center-text3
+{
+    text-align: center;
+    color: yellow;
+    visibility: hidden;
+}
+
+.center-text2:hover + .center-text3
+{
+    visibility: visible;
+}
+
+.center-btn
+{
+    margin-left: 590px;
+    margin-top: 30px;
+    height: 40px;
+    width: 160px;
+    background-color: transparent;
+    border-color: #ff5;
+    color: white;
+}   
+
+.center-btn:hover
+{
+    background-color: black;
+}
+
+.middle
+{
+    padding-top: 100px;
+}
+
+.main
+{
+    background: #fff;
+}
+
+.main-text1
+{
+    text-align: center;
+}
+
+.line
+{
+    width: 100px;
+}
+
+.main-text2
+{
+    text-align: center;
+}
+
+.main2
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.paragraph1, .paragraph2, .paragraph3, .paragraph4
+{
+    text-align: center;
+}
+
+.main3
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 18px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.paragraph5, .paragraph7
+{
+    text-align: center;
+    background: gray;   
+}
+
+.paragraph6, .paragraph8
+{
+    text-align: center;
+    background: #ff9;
+}
+
+footer
+{
+    background: black;
+    color: white;
+}
+
+.foot-extra
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+}
+
+.foot1, .foot2, .foot3, .foot4
+{
+    text-align: center;
+}

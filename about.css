@@ -1,0 +1,215 @@
+.logo
+{
+    height: 120px;
+    margin-left: 40px;
+}
+
+header
+{
+    background-image: url(download1.webp);
+    border-bottom: 3px solid #ffbc00;
+}
+
+
+body
+{
+    margin: 0px;
+}
+.nav-item:hover
+{
+    background-color: green;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#nav_bar 
+{
+    float: right;
+    margin-right: 90px; 
+    font-weight: bold;
+    color: black;
+}
+
+#nav_bar li 
+{
+    display: inline-block;
+    padding: 8px;
+}
+
+.link
+{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover
+{
+    text-decoration: none; 
+}
+
+footer
+{
+    background: black;
+    color: white;
+}
+
+.foot-extra
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+}
+
+.foot1
+{
+    text-align: center;
+}
+
+.foot2
+{
+    text-align: center;
+}
+
+.foot3
+{
+    text-align: center;
+}
+
+.foot4
+{
+    text-align: center;
+}
+
+.center-text
+{
+    text-align: center;
+}
+
+.line
+{
+    width: 100px;
+}
+
+.main-text
+{
+    text-align: center;
+}
+
+.image
+{
+    width: 300px;
+    margin: auto;
+}
+
+.text
+{
+    text-align: center;
+    border-left: 3px solid yellow;
+    margin: auto;
+    background: #f4f4f4;
+}
+
+.center
+{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.center-text2
+{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.award1
+{
+    text-align: center
+}
+
+.award2
+{
+    text-align: center
+}
+
+.award3
+{
+    text-align: center
+}
+
+.p1
+{
+    text-align: center;
+}
+
+.p2
+{
+    text-align: center;
+}
+
+.p3
+{
+    text-align: center;
+}
+
+.center2
+{
+    background: #333;
+    color: white;
+    max-width: 1280px;
+    padding: 0 2rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+.progress
+{
+    overflow: hidden;
+    height: 20px;
+    background: #ccc;
+    border-radius: 5px;
+    margin-bottom: 0.6rem;
+}
+
+.tech
+{
+    color: white;
+    text-align: center;
+}
+
+.test
+{
+    text-align: center;
+}
+
+.center-text3
+{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    font-size: 18px;
+}
+
+.comment1, .comment2, .comment3, .comment4
+{
+    border: groove;
+}
+
+.bottom-line
+{
+    height: 2px;
+    width: 5rem;
+    background: #ffbc00;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+.progress div
+{
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background: #ffbc00;
+}
